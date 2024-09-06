@@ -1,0 +1,19 @@
+body a {
+  text-decoration: none;
+}
+
+.main-header .navbar-brand .logo-default {
+  height: 50px;
+}
+
+.hero-section .carousel-inner .carousel-item {
+  height: 500px;
+}
+.hero-section .carousel-inner .carousel-item img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero-section .carousel-inner .carousel-item .carousel-caption h5 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

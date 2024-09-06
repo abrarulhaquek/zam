@@ -1,0 +1,38 @@
+//********** RESETS ***********//
+body {
+  a {
+    text-decoration: none;
+  }
+}
+
+//********** navbar **********//
+.main-header {
+  .navbar-brand {
+    .logo-default {
+      height: 50px;
+    }
+  }
+}
+//********** HERO SECTION **********//
+.hero-section {
+  .carousel-inner {
+    .carousel-item {
+      height: 500px;
+      img {
+        height: 500px;
+        object-fit: cover;
+      }
+      .carousel-caption {
+        h5 {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//*********** GALLERY *************//
+.gallery-view {
+  .nav-tabs {
+  }
+}

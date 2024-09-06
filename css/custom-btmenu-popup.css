@@ -1,0 +1,166 @@
+.bottom-menu {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+.bottom-menu {
+    display: block;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+     border-style: none !important;
+}
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+     display: inline-block;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+       left: 5px;
+    top: -8px;	
+}
+.tooltiptext:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 49%;
+    left:-5px;
+    right: 0;
+    margin-top: -5px;
+    content: "";
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000;
+}
+.left-side {
+    float: left;
+    padding: 0 0 10px 8px;
+}
+.leftside {
+    border-radius: 50%;
+    background-color: #2e9632;
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    box-shadow: 1px 1px 2px #000;
+}
+.fa-phone {
+    position: relative;
+    left: 19px;
+    font-size: 25px;
+    top: 18px;
+    color: #fff;
+}
+
+.fixed-bottom {
+    bottom: 0;
+    margin:0;
+    right: 0;
+    position: fixed;
+}
+.fixed-bottom1 {
+    bottom: 10px;
+    margin:0;
+    left: 10px;
+    position: fixed;
+}
+.rightside {
+    border-radius: 50%;
+    background-color: #0081e8;
+    width: 56px;
+    height: 56px;
+    border: 0;
+    position: relative;
+    top: 20px;
+	left: 10px;
+     box-shadow: 1px 1px 2px #000;
+}
+.fa-pencil{
+    position: relative;
+    left:20px;
+    font-size: 21px;
+    top: 16px;
+    color: #fff;
+}
+.tooltip1 {
+  float: right;
+}
+.tooltip1 .tooltiptext1 {
+    visibility: visible;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+     padding: 6px 10px;
+    position: relative;
+    top: -23px;
+    left: -105%;
+}
+
+.tooltip1 .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+        a#popup {
+            display: block;
+            background-image: none;
+            background: none;
+            bottom: 10px;
+            right: 9px;
+            left: 85%;
+            top: 87%;
+            position: fixed;
+    }
+}
+@media screen and (max-width: 600px) {
+a#popup {
+    bottom: 0;
+    left: 87%;
+    top: 91%;
+}
+}
+@media screen and (max-width: 414px) {
+ a#popup {
+    left: 81.5%;
+    top: 87.5%;
+}
+}
+@media screen and (max-width: 384px){
+a#popup {
+    left: 80%;
+    top: 86.4%;
+}
+}
+@media screen and (max-width: 375px) {
+      a#popup {
+    left: 80%;
+    top: 87%;
+}
+}
+@media screen and (max-width: 360px) {
+      a#popup {
+    left: 79.3%;
+    top: 86.2%;
+}
+}
+ @media screen and (max-width: 320px){
+     a#popup {
+    left: 76.5%;
+    top: 85%;
+}
+    }
